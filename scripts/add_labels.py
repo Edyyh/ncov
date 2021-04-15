@@ -20,6 +20,7 @@ if __name__ == '__main__':
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
 
+    
     parser.add_argument('--input', type=str, metavar="JSON", required=True, help="input Auspice JSON")
     parser.add_argument('--tree', type=str, required=True, help="tree file")
     parser.add_argument('--clades', type=str, required=True, help="clades")
